@@ -30,20 +30,21 @@ A simple and effective web-based Student Attendance Management System where:
 ## Folder Structure
 
 Student_Attendance_Management/
-│ ├── css/ 
-    │ └── style.css
-  ├── js/ │
-    └── chart.js   
-   ├── sql/ 
-      │ └── database_setup.sql
-├── db.php 
-├── login.php 
-├── logout.php 
-├── register_admin.php 
-├── register_student.php 
-├── mark_attendance.php 
-├── student_dashboard.php 
-├── view_attendance.php 
+│
+├── css/
+│   └── style.css
+├── js/
+│   └── chart.js
+├── sql/
+│   └── database_setup.sql
+├── db.php
+├── login.php
+├── logout.php
+├── register_admin.php
+├── register_student.php
+├── mark_attendance.php
+├── student_dashboard.php
+├── view_attendance.php
 ├── admin.js
 
 ## Database Tables
