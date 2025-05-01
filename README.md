@@ -27,31 +27,10 @@ A simple and effective web-based Student Attendance Management System where:
 - **Charting**: Chart.js
 - **Tool**: Visual Studio Code, XAMPP
 
-## Folder Structure
 
-Student_Attendance_Management/
-│
-├── css/
-│   └── style.css
-├── js/
-│   └── chart.js
-├── sql/
-│   └── database_setup.sql
-├── db.php
-├── login.php
-├── logout.php
-├── register_admin.php
-├── register_student.php
-├── mark_attendance.php
-├── student_dashboard.php
-├── view_attendance.php
-├── admin.js
-
-## Database Tables
-
-1. `admin` – stores admin credentials.
-2. `students` – stores student details.
-3. `attendance` – stores student attendance records (date-wise).
+## Database Tables.
+1. `students` – stores student details.
+2. `attendance` – stores student attendance records (date-wise).
 
 ## Installation Steps
 
@@ -61,9 +40,6 @@ Student_Attendance_Management/
 4. Place the project folder into `C:\\xampp\\htdocs\\`.
 5. Open browser and go to `http://localhost/Student_Attendance_Management/`.
 
-## Screenshots
-
-(Add your screenshots here if needed to show demo.)
 
 ## Future Enhancements
 
