@@ -2,11 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$db = "attendance_db";
-
+$db = "student_attendance";
 $conn = new mysqli($host, $user, $password, $db);
-
-if ($conn->connect_error) {
-    die("Database connection failed: " . $conn->connect_error);
-}
+if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 ?>
